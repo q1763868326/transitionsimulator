@@ -1,0 +1,50 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "金融模拟器"
+			}
+		}
+	    ,{
+            "path" : "pages/cangku/cangku",
+           "style": {
+           	"navigationBarTitleText": "金融模拟器"
+           }
+        }
+        ,{
+            "path" : "pages/rank/rank",
+            "style": {
+            	"navigationBarTitleText": "金融模拟器"
+            }
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "金融模拟器",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		    "color": "#F0AD4E",
+		    "selectedColor": "#3cc51f",
+		    "borderStyle": "black",
+		    "backgroundColor": "#F8F8F8",
+		    "list": [{
+		        "pagePath": "pages/index/index",
+		        "iconPath": "static/logo.png",
+		        "selectedIconPath": "static/logo.png",
+		        "text": "市场"
+		    },{
+		        "pagePath": "pages/cangku/cangku",
+		        "iconPath": "static/logo.png",
+		        "selectedIconPath": "static/logo.png",
+		        "text": "仓库"
+		    }, {
+		        "pagePath": "pages/rank/rank",
+		      "iconPath": "static/logo.png",
+		      "selectedIconPath": "static/logo.png",
+		        "text": "排行榜"
+		    }]
+		}
+}
